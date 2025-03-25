@@ -15,7 +15,7 @@ struct ContentView: View {
             VStack(alignment: .center) {
                 Spacer()
                 Button(action: {
-                    print("Cat was clicked")
+                    print("Cat was clicked!")
                     showCat = true
                 }) {
                     Label("", systemImage: "cat")
@@ -26,7 +26,7 @@ struct ContentView: View {
                 Divider()
                 Spacer()
                 Button(action: {
-                    print("Dog was clicked")
+                    print("Dog was clicked!")
                     showCat = false
                 }) {
                     Label("", systemImage: "dog")
